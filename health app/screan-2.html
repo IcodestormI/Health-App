@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fit calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="body_2">
+        <div class="back" onclick="back()">Home</div>
+        <div class="head">Fit Calculator</div>
+        <div class="sleep">Sleep
+            <div id="sleep">6 Hours</div>
+        </div>
+        <div class="heart">Heart
+            <div id="heart">95 bpm</div>
+        </div>
+        <div class="bill">Pill Time Reminder:
+            <div class="alarm" onclick="screen_()">Set</div>
+        </div> 
+
+    </div>
+
+    
+
+
+    <script>
+        function back(){
+            window.location = 'home.html';
+        }
+        function screen_(){
+            window.location = 'alarm.html';
+        }
+        
+    </script>
+    
+</body>
+</html>

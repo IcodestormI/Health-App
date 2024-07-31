@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body_2">
+        <div class="back" onclick="back()">Home</div>
+        <div class="head" id="kk">Pill Alarm</div>
+        <div id="screen">
+            <div class="tm" onclick="setTimeout(myFunction, 10000)">10s</div>
+            <div class="tm" onclick="setTimeout(myFunction, 30000)">30s</div>
+            <div class="tm" onclick="setTimeout(myFunction, 60000)">60s</div>
+            <div class="tm" onclick="setTimeout(myFunction, 90000)">90s</div>
+            <div class="tm" onclick="setTimeout(myFunction, 120000)">120s</div>
+            <div class="tm" onclick="setTimeout(myFunction, 150000)">150s</div>
+        </div>
+    </div>
+    <script>
+        function back(){
+            window.location = 'home.html';
+        }
+        function myFunction(){
+            alert('Time To Take Your Piil')
+
+        }   
+     </script>
+    
+</body>
+</html>
